@@ -51,7 +51,7 @@ const monsters = {
       nombre: 'Nergigante',
       color: 'Negro y púrpura',
       debilidad: 'Dragón',
-      habitat: 'Elder Recess',
+      habitat: 'Valle de los ancianos',
       descripcion: 'Un dragón anciano que regenera su cuerpo rápidamente y destruye todo a su paso.',
       imagen: '../../public/nergigante.png'
     },
@@ -75,7 +75,7 @@ const monsters = {
       nombre: 'Legiana',
       color: 'Azul y blanco',
       debilidad: 'Fuego, Trueno',
-      habitat: 'Coral Highlands',
+      habitat: 'Valles coralinos',
       descripcion: 'Un wyvern volador que puede congelar el aire para moverse con agilidad.',
       imagen: '../../public/legiana.png'
     },
@@ -99,7 +99,15 @@ const monsters = {
       nombre: 'Odogaron',
       color: 'Rojo oscuro',
       debilidad: 'Hielo, Agua',
-      habitat: 'Rotten Vale',
+      habitat: 'Valle fetido',
+      descripcion: 'Un wyvern colmillo con garras afiladas que se mueve con una velocidad increíble.',
+      imagen: '../../public/odogaron.png'
+    },
+    odogarón: {
+      nombre: 'Odogaron',
+      color: 'Rojo oscuro',
+      debilidad: 'Hielo, Agua',
+      habitat: 'Valle fetido',
       descripcion: 'Un wyvern colmillo con garras afiladas que se mueve con una velocidad increíble.',
       imagen: '../../public/odogaron.png'
     },

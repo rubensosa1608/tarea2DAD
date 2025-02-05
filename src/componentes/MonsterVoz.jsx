@@ -25,8 +25,13 @@ const MonsterHunterCommands = () => {
           setDescripcion(`📖 Descripción: ${monster.descripcion}`);
           setImage(monster.imagen);
         } else {
-          setMessage(`No tengo información sobre "${monsterName}".`);
+          setNombre(null);
+          setColor(null);
+          setDebilidad(null);
+          setHabitat(null);
+          setDescripcion(null);
           setImage(null);
+          setMessage("No tenemos informacion sobre " + monsterName);
         }
       }
     }
@@ -82,6 +87,10 @@ const MonsterHunterCommands = () => {
           alt="Imagen del monstruo"
         />
       )}
+
+      <p>
+        {message}
+      </p>
     </div>
   );
 };
